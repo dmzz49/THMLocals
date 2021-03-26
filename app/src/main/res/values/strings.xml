@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application-THMLocals</string>
+    <string name="Start">Bitte einen Text eingeben</string>
+    <string name="THM">Bitte einen Text eingeben</string>
+    <string name="Nachhilfe">Bitte einen Text eingeben</string>
+    <string name="Gruppe">Bitte einen Text eingeben</string>
+    <string name="Kennenlernen">Bitte einen Text eingeben</string>
+    <string name="button1">Bitte einen Text eingeben</string>
+    <string name="button2">Bitte einen Text eingeben</string>
+    <string name="button3">Bitte einen Text eingeben</string>
+    <string name="button4">Bitte einen Text eingeben</string>
+    <string name="Suche">Bitte einen Text eingeben</string>
+    <string name="Angebot">Bitte einen Text eingeben</string>
+</resources>
