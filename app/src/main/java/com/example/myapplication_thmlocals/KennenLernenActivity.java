@@ -14,17 +14,18 @@ private Button bttn2;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kennen_lernen);
-        getSupportActionBar().setTitle("Zurück ");
+        getSupportActionBar().setTitle("Zurück?");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button bttn = findViewById(R.id.buttonk1);
         bttn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openItemsListActivity();
+
+                openItemsListActivitykennenlernen();
             }
 
-            public void openItemsListActivity() {
+            public void openItemsListActivitykennenlernen() {
                 Intent intent = new Intent(KennenLernenActivity.this, ItemsListActivitykennenlernen.class);
                 startActivity(intent);
             }
@@ -33,10 +34,11 @@ private Button bttn2;
         bttn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openItemsListActivity();
+
+                openItemsListActivitykennenlernen();
             }
 
-            public void openItemsListActivity() {
+            public void openItemsListActivitykennenlernen() {
                 Intent intent = new Intent(KennenLernenActivity.this, ItemsListActivitykennenlernen.class);
                 startActivity(intent);
             }
