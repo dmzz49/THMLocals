@@ -14,6 +14,8 @@ private Button bttn2;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kennen_lernen);
+        getSupportActionBar().setTitle("Zurück ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button bttn = findViewById(R.id.buttonk1);
         bttn.setOnClickListener(new View.OnClickListener() {
@@ -23,7 +25,7 @@ private Button bttn2;
             }
 
             public void openItemsListActivity() {
-                Intent intent = new Intent(KennenLernenActivity.this, ItemsListActivity.class);
+                Intent intent = new Intent(KennenLernenActivity.this, ItemsListActivitykennenlernen.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +37,7 @@ private Button bttn2;
             }
 
             public void openItemsListActivity() {
-                Intent intent = new Intent(KennenLernenActivity.this, ItemsListActivity.class);
+                Intent intent = new Intent(KennenLernenActivity.this, ItemsListActivitykennenlernen.class);
                 startActivity(intent);
             }
         });

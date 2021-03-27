@@ -16,6 +16,8 @@ public class NachhilfeActivity extends AppCompatActivity   {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nachhilfe);
+        getSupportActionBar().setTitle("Zurück ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button btn = findViewById(R.id.buttonk1);
         btn.setOnClickListener(new View.OnClickListener() {
@@ -25,7 +27,7 @@ public class NachhilfeActivity extends AppCompatActivity   {
             }
 
             public void openItemsListActivity() {
-                Intent intent = new Intent(NachhilfeActivity.this, ItemsListActivity.class);
+                Intent intent = new Intent(NachhilfeActivity.this, ItemsListActivityNachhilfe.class);
                 startActivity(intent);
             }
         });
@@ -37,7 +39,7 @@ public class NachhilfeActivity extends AppCompatActivity   {
             }
 
             public void openItemsListActivity() {
-                Intent intent = new Intent(NachhilfeActivity.this, ItemsListActivity.class);
+                Intent intent = new Intent(NachhilfeActivity.this, ItemsListActivityNachhilfe.class);
                 startActivity(intent);
             }
         });

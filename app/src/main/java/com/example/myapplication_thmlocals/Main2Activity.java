@@ -20,7 +20,8 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        //getSupportActionBar().setTitle("Welcome");
+        getSupportActionBar().setTitle("Start");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button button2 = findViewById(R.id.buttonk1);
         Button button3 = findViewById(R.id.buttonk2);

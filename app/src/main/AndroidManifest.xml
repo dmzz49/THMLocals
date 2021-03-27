@@ -9,37 +9,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ItemsListActivity"></activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
+        <activity android:name=".ItemsListActivityNachhilfe"
+            android:parentActivityName=".NachhilfeActivity"
+             ></activity>
+        <activity android:name=".ItemsListActivitygruppe"
+            android:parentActivityName=".GruppeActivity"
+            ></activity>
+        <activity android:name=".ItemsListActivitykennenlernen"
+            android:parentActivityName=".KennenLernenActivity"
+            ></activity>
+        <activity android:name=".MainActivity"
+           android:parentActivityName=".MainActivity" ><intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity">
-            <intent-filter>
+        <activity android:name=".Main2Activity"
+            android:parentActivityName=".MainActivity" ><intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NachhilfeActivity">
-            <intent-filter>
+        <activity android:name=".NachhilfeActivity"
+            android:parentActivityName=".Main2Activity"><intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GruppeActivity">
-            <intent-filter>
+        <activity android:name=".GruppeActivity"
+            android:parentActivityName=".Main2Activity"><intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KennenLernenActivity">
-            <intent-filter>
+        <activity android:name=".KennenLernenActivity"
+            android:parentActivityName=".Main2Activity"><intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />

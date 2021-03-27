@@ -14,6 +14,8 @@ private Button btnn2;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gruppe);
+        getSupportActionBar().setTitle("Zurück ");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button btnn = findViewById(R.id.buttong1);
         btnn.setOnClickListener(new View.OnClickListener() {
@@ -23,7 +25,7 @@ private Button btnn2;
             }
 
             public void openItemsListActivity() {
-                Intent intent = new Intent(GruppeActivity .this, ItemsListActivity.class);
+                Intent intent = new Intent(GruppeActivity .this, ItemsListActivitygruppe.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +37,7 @@ private Button btnn2;
             }
 
             public void openItemsListActivity() {
-                Intent intent = new Intent(GruppeActivity .this, ItemsListActivity.class);
+                Intent intent = new Intent(GruppeActivity .this, ItemsListActivitygruppe.class);
                 startActivity(intent);
             }
         });

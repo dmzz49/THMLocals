@@ -4,6 +4,12 @@
     <string name="THM">Bitte einen Text eingeben</string>
     <string name="Nachhilfe">Bitte einen Text eingeben</string>
     <string name="Gruppe">Bitte einen Text eingeben</string>
+    <string name="ItemlistActivityGruppe">Bitte einen Text eingeben</string>
+    <string name="ItemlistActivityKennenlernen">Bitte einen Text eingeben</string>
+    <string name="ItemlistActivityNachhilfe">Bitte einen Text eingeben</string>
+    <string name="ItemlistGruppe">Bitte einen Text eingeben</string>
+    <string name="ItemlistNachhilfe">Bitte einen Text eingeben</string>
+    <string name="ItemlistKennenlernen">Bitte einen Text eingeben</string>
     <string name="Kennenlernen">Bitte einen Text eingeben</string>
     <string name="button1">Bitte einen Text eingeben</string>
     <string name="button2">Bitte einen Text eingeben</string>
