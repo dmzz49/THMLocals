@@ -4,17 +4,13 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ItemsListActivityNachhilfe extends AppCompatActivity {
+public class ItemsListActivityKennenlernen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_items_list);
-        getSupportActionBar().setTitle("Zurück");
+        setContentView(R.layout.activity_items_list_kennenlernen);
+        getSupportActionBar().setTitle("Zurück ");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
     }
 }
-
-

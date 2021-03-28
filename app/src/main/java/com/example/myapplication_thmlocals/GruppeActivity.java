@@ -1,11 +1,11 @@
 package com.example.myapplication_thmlocals;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class GruppeActivity extends AppCompatActivity {
 private Button btnn;
@@ -14,7 +14,7 @@ private Button btnn2;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gruppe);
-        getSupportActionBar().setTitle("Zurück#");
+        getSupportActionBar().setTitle("Zurück");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button btnn = findViewById(R.id.buttong1);
@@ -22,10 +22,10 @@ private Button btnn2;
             @Override
             public void onClick(View v) {
 
-                openItemsListActivitygruppe();
+                openItemsListActivity();
             }
 
-            public void openItemsListActivitygruppe() {
+            public void openItemsListActivity() {
                 Intent intent = new Intent(GruppeActivity .this, ItemsListActivitygruppe.class);
                 startActivity(intent);
             }
@@ -35,10 +35,10 @@ private Button btnn2;
             @Override
             public void onClick(View v) {
 
-                openItemsListActivitygruppe();
+                openItemsListActivity();
             }
 
-            public void openItemsListActivitygruppe() {
+            public void openItemsListActivity() {
                 Intent intent = new Intent(GruppeActivity .this, ItemsListActivitygruppe.class);
                 startActivity(intent);
             }
